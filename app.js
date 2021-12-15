@@ -20,9 +20,9 @@ app.set("view engine","ejs")
 //app.set("views",path.resolve(__dirname,"views/ejs"))
 
 //load design
-app.use('/css',express.static(path.resolve(__dirname,"FE/css")))
-app.use('/img',express.static(path.resolve(__dirname,"FE/img")))
-app.use('/javascript',express.static(path.resolve(__dirname,"FE/javascript")))
+app.use('/css',express.static(path.resolve(__dirname,"main/css")))
+app.use('/img',express.static(path.resolve(__dirname,"main/img")))
+app.use('/javascript',express.static(path.resolve(__dirname,"main/javascript")))
 
 
 app.get('/',(req,res)=>{
