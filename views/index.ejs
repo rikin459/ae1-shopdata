@@ -1,7 +1,55 @@
 <!-- include header -->
 <%- include('include/header') %>
 <!-- /include header -->
+<!-- main  part of the webpage  -->
+<main id="site-main">
+    <div class="container">
+        <div class="box-nav d-flex justify-between">
+            <a href="/add-user" class="border-shadow">
+                <span class="text-gradient">New User</span>
+            </a>
+        </div>
 
+
+        <!-- data entry from  -->
+        <form action="/" method="POST">
+            <table class="display table" id="myTable">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Date</th>
+                        <th>Price</th>
+                        <th>Payment type</th>
+                        <th>Reason of payment </th>
+                        <th> recived by </th>
+                        <th> action  </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>john</td>
+                        <td>1st dec 2021</td>
+                        <td>15 gdp </td>
+                        <td> card </td>
+                        <td> paper bill </td>
+                        <td> Rikin </td>
+                        <td>
+                            <a href="#" class="btn border-shadow update">
+                                <span class="text-gradient"><i class="fas fa-pencil-alt"></i></span>
+                            </a>
+                            <a id="deleteIcon" class="btn border-shadow delete">
+                                <span class="text-gradient"><i class="fas fa-times"></i></span>
+                            </a>
+                        </td>
+                    </tr>     
+                </tbody>
+            </table>
+        </form>
+    </div>
+</main>
+<!-- /main  part of the webpage  -->
 <!-- include footer -->
     <%- include('include/footer') %>
 <!-- /include footer —>
