@@ -3,6 +3,13 @@
     margin: 0;
     box-sizing: border-box;
    }
+
+   body{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.80),rgba(0, 0, 0, 0.80)),url(/img/back.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   }
    
    a {
     text-decoration: none;
@@ -12,6 +19,7 @@
    .container{
     max-width: 1024px;
     margin: auto;
+    color :black
    }
    
    .nav-brand{
@@ -34,13 +42,16 @@
    
    .border-shadow{
     border: 1px solid var(--border-btn);
-    box-shadow: 1px 3px 10px #e9ecef;
+    box-shadow: 1px 3px 10px #7c7e80;
+    border-radius: 30px;
+
    }
    
    .text-dark{
     color: var(--dark);
    }
    
+
    .inline{
     display: inline-block;
    }
@@ -50,7 +61,7 @@
    }
    
    .text-gradient{
-    background: linear-gradient(to right, #2e02f3, #4a00e0);
+    background: linear-gradient(to right, #f8f8f8, #b3a9a9);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -60,6 +71,9 @@
     background-color: #0099ff;
     padding: 1em 0;
     width: 100%;
+    border-radius: 40px;
+
+
    }
    
    #site-main{
@@ -79,6 +93,7 @@
    table{
     border-spacing: 0px;
     width: 100%;
+
    }
    
    .table td, .table th{
@@ -86,6 +101,8 @@
     vertical-align: top;
     text-align: center;
     border-top: 1px solid var(--border);
+    border-radius: 30px;
+
    }
    
    .table td > a.btn{
@@ -94,17 +111,19 @@
     margin: 0 .2em;
    }
    
-   .table tr:hover{
-    background-color:#69b5f3 ;
-   }
-   
    .table tr:hover td > a{
     box-shadow: none;
+    border-radius: 30px;
+
    }
    
    .table .thead-dark th{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     background-color: var(--dark) ;
-    border-color: #32383e;
+    border-color: #ffffff;
    }
-   
+   .data
+   {
+       color: whitesmoke;
+   }
+  
