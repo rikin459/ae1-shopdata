@@ -1,0 +1,62 @@
+<!-- include header -->
+<%- include('include/header') %>
+<!-- /include header -->
+<!-- main  part of the webpage  -->
+<main id="site-main">
+    <div class="container">
+        <div class="d-flex justify-between">
+            <div class="filter">
+                <a href="/"> Update Logs</a>
+            </div>
+        </div>
+        <div class="form-title text-center">
+            <span class="text">update log here </span>
+        </div>
+        <form method="POST" id="update">
+    <div class="new_log ">
+        <div class="form-group">
+            <label for="ID" class="text"> ID</label>
+            <input type="hidden" name="ID" value="">
+            <input type="text" name="name" value="">
+        </div>
+        <div class="form-group">
+            <label for="Name" class="text"> Name</label>
+            <input type="text" name="Name" value="">
+        </div>
+        <div class="form-group">
+            <label for="Genre" class="text">Price</label>
+            <input type="text" name="Genre" value="">
+        </div>
+        <div class="form-group">
+            <label for="Type" class="text">date</label>
+            <input type="text" name="Type" value="">
+        </div>
+        <div class="form-group">
+            <label for="Episodes" class="text">Payemnt type</label>
+            <input type="text" name="Episodes" value="">
+        </div>
+        <div class="form-group">
+            <label for="Rating" class="text">Reason of payment </label>
+            <input type="text" name="Rating" value="">
+        </div>
+        <div class="form-group">
+            <label for="Members" class="text">paid with </label>
+            <input type="text" name="Members" value="">
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+
+    </div>
+</form>
+    </div>
+</main>
+
+
+
+
+
+<!-- include footer -->
+<%- include('include/footer') %>
+<!-- /include footer —>

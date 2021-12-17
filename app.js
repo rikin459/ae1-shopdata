@@ -28,4 +28,11 @@ app.get('/',(req,res)=>{
     res.render('index');
 })
 
+app.get('/addlogs',(req,res)=>{
+    res.render('addlogs');
+})
+
+app.get('/updatelogs',(req,res)=>{
+    res.render('updatelogs');
+})
 app.listen(PORT,()=>{console.log('Server is running on http://localhost:PORT')});

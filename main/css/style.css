@@ -5,7 +5,7 @@
    }
 
    body{
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.80),rgba(0, 0, 0, 0.80)),url(/img/back.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.80),rgba(0, 0, 0, 0.80)),url(../img/back.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -19,7 +19,7 @@
    .container{
     max-width: 1024px;
     margin: auto;
-    color :black
+    color :rgb(189, 186, 186)
    }
    
    .nav-brand{
@@ -68,7 +68,7 @@
    }
    
    #header nav{
-    background-color: #0099ff;
+    background-color: #e7e7e72f;
     padding: 1em 0;
     width: 100%;
     border-radius: 40px;
@@ -126,4 +126,84 @@
    {
        color: whitesmoke;
    }
-  
+   @media only screen and (max-width: 1024px){
+    table, thead, tbody, th, td, tr{
+        display: block;
+    }
+
+    thead tr{
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr { border: 1px solid var(--border);}
+
+    td{
+        border: none;
+        position: relative;
+    }
+
+}
+
+form-title{
+    margin-top: 2em;
+}
+
+.form-title > h2{
+    padding: .5em 0;
+}
+
+.new_log{
+    max-width: 786px;
+    margin: auto;
+}
+
+#update .form-group,
+#addlogs  .form-group{
+    margin: .4em 0;
+}
+
+#update .form-group input[type="text"],
+#addlogs.form-group input[type="text"]{
+    width: 100%;
+    padding: .6em 1em;
+    margin: .5em 0;
+    border: 1px solid var(--border);
+    font-family: 'Barlow', sans-serif;
+    font-size: 1em;
+    border-radius:30px ;
+}
+
+#update .form-group,
+#addlogs .form-group{
+    margin: 1em 2em;
+}
+
+
+#update .form-group .btn,
+#addlogs .form-group .btn{
+    width: 100%;
+    padding: .9em 1em;
+    background-color:#296dbb9a; 
+    border: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2em;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: .5em 0;
+}
+
+#update .form-group .btn:hover,
+#addlogs  .form-group .btn:hover{
+    background-color: var(--dark);
+    color: var(--border);
+}
+
+
+#navbar{
+   padding-right: 20px;
+   max-width: 1024px;
+   margin: auto;
+   color: white;
+}
