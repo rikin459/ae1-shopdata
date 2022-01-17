@@ -10,7 +10,7 @@ This is a project I had to work on during my university. The main purpose of thi
 
 ## System overview
 
-Below you can see the screen shots of my web application. The web application mostly contains forms and shows the data. the titles are :
+Below you can see the screenshots of my web application. The web application mostly contains forms and shows the data. The titles are :
 
 - ID: This is for the dataset and it is how it is identified. 
 - Name: This is where the person behind the till would enter the customer's name who wishes to pay later.
@@ -19,8 +19,12 @@ Below you can see the screen shots of my web application. The web application mo
 - Method of payment: This is how the customers would like to pay when they return.
 - Reason for the IOU: The reason why they didn't pay. 
 
+photo
 
+## Database design 
 
+This web application can display, update, create and delete records. It does this by using schemas as the base of the CRUD code. If requested by the user it can also create a record on the database which is connected to MongoDB. This means it is not stored locally and can be accessed more conveniently. The application can also work on most devices such as phones this is possible due to CSS media queries which allow the whole web app to scale down and be in a useable format for mobile phone browsers. This current web all also needs to be secure therefore people who only have access have a link that can allow them to use the web application. 
+One idea could be that I could have created a login system however due to multiple users I decided not to as some of the users don't have great memory and experience on technology. Below one can also see the design of the database it allows the user to use the web application with ease. the big and white text makes the buttons clear and the dark background and layout help the user for getting eye strains and the device battery drain. For the front end of the web application to make all of the pages HTML code was used this includes the form for the data to be inserted into. One reason why is because this was the perfect way to layout the web application. Then the web app was styled with CSS to make the user interface more convenient. 
 
-
+photo 
 
