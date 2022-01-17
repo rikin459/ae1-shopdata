@@ -22,7 +22,6 @@ Below you can see the screenshots of my web application. The web application mos
 photo
 
 ## Database design 
-
 This web application can display, update, create and delete records. It does this by using schemas as the base of the CRUD code. If requested by the user it can also create a record on the database which is connected to MongoDB. This means it is not stored locally and can be accessed more conveniently. The application can also work on most devices such as phones this is possible due to CSS media queries which allow the whole web app to scale down and be in a useable format for mobile phone browsers. This current web all also needs to be secure therefore people who only have access have a link that can allow them to use the web application. 
 One idea could be that I could have created a login system however due to multiple users I decided not to as some of the users don't have great memory and experience on technology. 
 
