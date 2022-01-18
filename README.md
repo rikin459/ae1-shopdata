@@ -17,6 +17,18 @@ In the terminal type in:
     npm run dev 
     
 Then you can run the program on  (http://localhost:3000) 
+
+
+# System Requirements
+The system requirements for this project is listed below 
+
+- Windows 7 or later (preferably)
+- VS code 
+- Google Chrome or any Browser 
+- stable internet connection (if running the heroku version )
+
+
+
 ## Introduction 
 This is a project I had to work on during my university. The main purpose of this project was the create a database logging programs which logs data using a web application. For the project, we had to choose our one project theme however the project theme must solve a problem and be very realistic. 
  
