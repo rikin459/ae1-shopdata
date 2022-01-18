@@ -1,5 +1,22 @@
 # Ae1 Database project
+#  How to Run 
+Clone this repository https://github.com/rikin459/ae1-shopdata
+When cloned open project in Visual Studio Code, install the dependencies listed below:
+- npm install
+- npm install body-parser
+- npm install dotenv
+- npm install ejs
+- npm install express 
+- npm install mongodb 
+- npm install mongoose 
 
+
+# Running the project:
+In the terminal type in:
+
+    npm run dev 
+    
+Then you can run the program on  (http://localhost:3000) 
 ## Introduction 
 This is a project I had to work on during my university. The main purpose of this project was the create a database logging programs which logs data using a web application. For the project, we had to choose our one project theme however the project theme must solve a problem and be very realistic. 
  
@@ -31,5 +48,6 @@ photo
 
 
 ## Concusion 
-Overall this project has been a great experience . one reason why is because we were told to solve a real-life problem which means there will be used for this project when completed. Most of the projects that I created have no meaning once completed however this one will solve a problem. building the project has been a great experience as well and also I have learned a lot of new features. For example, when creating the front end of the project instead of making 5 headers and footers for 5 pages I use the HTML import feature this can be good as it helps save time, as a result, it was a great learning experience. Another new thing I learned was the connection to MongoDB and the cloud database. My previous experiences have mostly been with SQL and python based databases as a result the cloud database was very new to me. However, saying that it didn't take me long to learn this is due to a vast amount of informative articles on the internet about it. Overall I'm starting to prefer it. Overall the whole experience making and showing this project has been great fun.
+Overall this project has been a great experience . one reason why is because we were told to solve a real-life problem which means there will be used for this project when completed. Most of the projects that I created have no meaning once completed however this one will solve a problem. building the project has been a great experience as well and also I have learned a lot of new features. For example, when creating the front end of the project instead of making 5 headers and footers for 5 pages I use the HTML import feature this can be good as it helps save time, as a result, it was a great learning experience. Another new thing I learned was the connection to MongoDB and the cloud database. My previous experiences have mostly been with SQL and python based databases as a result the cloud database was very new to me. However, saying that it didn't take me long to learn this is due to a vast amount of informative articles on the internet about it. Overall I'm starting to prefer it. 
+
 
