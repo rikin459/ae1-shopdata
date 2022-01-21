@@ -48,7 +48,8 @@ Below you can see the screenshots of my web application. The web application mos
 - Method of payment: This is how the customers would like to pay when they return.
 - Reason for the IOU: The reason why they didn't pay. 
 
-photo
+![photo](https://user-images.githubusercontent.com/72072104/150528716-ebb35c45-510e-47cb-8baf-cda4edfdab3c.PNG)
+
 
 ## Database design 
 This web application can display, update, create and delete records. It does this by using schemas as the base of the CRUD code. If requested by the user it can also create a record on the database which is connected to MongoDB. This means it is not stored locally and can be accessed more conveniently. The application can also work on most devices such as phones this is possible due to CSS media queries which allow the whole web app to scale down and be in a useable format for mobile phone browsers. This current web all also needs to be secure therefore people who only have access have a link that can allow them to use the web application. 
@@ -56,7 +57,8 @@ One idea could be that I could have created a login system however due to multip
 
 Below one can also see the design of the database it allows the user to use the web application with ease. the big and white text makes the buttons clear and the dark background and layout help the user for getting eye strains and the device battery drain. For the front end of the web application to make all of the pages HTML code was used this includes the form for the data to be inserted into. One reason why is because this was the perfect way to layout the web application. Then the web app was styled with CSS to make the user interface more convenient. 
 
-photo 
+
+![photo 2](https://user-images.githubusercontent.com/72072104/150528744-004ab909-9272-4acb-b372-45c5377de8b0.PNG)
 
 
 ## Concusion 
