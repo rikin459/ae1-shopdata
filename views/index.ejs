@@ -27,7 +27,41 @@
                     </tr>
                 </thead>
                 <tbody class=" data ">
-                    <%- include('include/display') %>
+                    
+                        <% logs.forEach(log=>{ %>
+                        <tr>
+                            <td>
+                                <%= log.log_ID %>
+                            </td>
+                            <td>
+                                <%= log.name%>
+                            </td>
+                            <td>
+                                <%=log.price%>
+                            </td>
+                            <td>
+                                <%=log.date%>
+                            </td>
+                            <td>
+                                <%=log.paymenttype%>
+                            </td>
+                            <td>
+                                <%=log.reasonofpayment%>
+                            </td>
+                            <td>
+                                <%=log.paidwith%>
+                            </td>
+                            <td>
+                                <a href="/updatelogs/<%= log.id%>" class="btn border-shadow update">
+                                    <span class="text-gradient"><i class="fas fa-pencil-alt">Edit</i></span>
+                                </a>
+                                <a href="/index/delete/<%= log.id%>" class="btn border-shadow delete">
+                                    <span class="text-gradient"><i class="fas fa-times">Delete</i></span>
+                                </a>
+                            </td>
+                        </tr>
+                            <% }); %>
+                    <br>
                 </tbody>
             </table>
         </form>
