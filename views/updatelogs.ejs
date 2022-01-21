@@ -12,36 +12,35 @@
         <div class="form-title text-center">
             <span class="text">update log here </span>
         </div>
-        <form method="POST" id="update">
+        <form method="POST" action = /updatelogs/:id" id="update">
     <div class="new_log ">
         <div class="form-group">
-            <label for="ID" class="text"> ID</label>
-            <input type="hidden" name="ID" value="">
-            <input type="text" name="name" value="">
+            <label for="log_ID" class="text"> ID</label>
+            <input type="text" name="log_ID" value="<%= log.log_ID %>">
         </div>
         <div class="form-group">
             <label for="Name" class="text"> Name</label>
-            <input type="text" name="Name" value="">
+            <input type="text" name="name" value=  <%= log.name %>">
         </div>
         <div class="form-group">
             <label for="price" class="text">Price</label>
-            <input type="text" name="Genre" value="">
+            <input type="text" name="price" value="<%= log.price %>">
         </div>
         <div class="form-group">
             <label for="date" class="text">date</label>
-            <input type="text" name="date" value="">
+            <input type="text" name="date" value="<%= log.date %>">
         </div>
         <div class="form-group">
             <label for="Payemnt type" class="text">Payemnt type</label>
-            <input type="text" name="Payemnt type" value="">
+            <input type="text" name="paymenttype" value="<%= log.paymenttype %>">
         </div>
         <div class="form-group">
             <label for="Reason of payment " class="text">Reason of payment </label>
-            <input type="text" name="Reason of payment" value="">
+            <input type="text" name="reasonofpayment" value="<%= log.reasonofpayment %>">
         </div>
         <div class="form-group">
-            <label for="paid with" class="text">paid with </label>
-            <input type="text" name="paid with" value="">
+            <label for="paidwith" class="text">paid with </label>
+            <input type="text" name="paidwith" value="<%= log.paidwith %>">
         </div>
 
         <div class="form-group">

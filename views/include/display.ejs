@@ -1,17 +1,35 @@
 <tr>
-    <td>1</td>
-    <td>john</td>
-    <td>1st dec 2021</td>
-    <td>15 gdp </td>
-    <td> card </td>
-    <td> paper bill </td>
-    <td> Rikin </td>
-    <td>
-        <a href="/updatelogs" class="btn border-shadow update">
-            <span class="text-gradient"><i class="fas fa-pencil-alt">Update</i></span>
-        </a>
-        <a href="deleteIcon" class="btn border-shadow delete">
-            <span class="text-gradient"><i class="fas fa-times">Remove</i></span>
-        </a>
-    </td>
-</tr>     
+    <% logs.forEach(log=>{ %>
+        <td>
+            <%= log.log_ID %>
+        </td>
+        <td>
+            <%= log.name%>
+        </td>
+        <td>
+            <%=log.price%>
+        </td>
+        <td>
+            <%=log.date%>
+        </td>
+        <td>
+            <%=log.paymenttype%>
+        </td>
+        <td>
+            <%=log.reasonofpayment%>
+        </td>
+        <td>
+            <%=log.paidwith%>
+        </td>
+        <td>
+            <a href="/updatelogs/<%= log.id%>" class="btn border-shadow update">
+                <span class="text-gradient"><i class="fas fa-pencil-alt">Edit</i></span>
+            </a>
+            <a href="/index/delete/<%= log.id%>" class="btn border-shadow delete">
+                <span class="text-gradient"><i class="fas fa-times">Delete</i></span>
+            </a>
+        </td>
+        <% }); %>
+
+</tr>
+<br>
